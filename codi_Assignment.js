@@ -1,9 +1,9 @@
 
 // 1. Write a program to check whether a number is positive or negative.
-// 
+//
 
 // let a=prompt("enter the number")
-  
+
 // a=Number(a)
 
 // if(a>0)
@@ -74,7 +74,7 @@
 
 
 // 6. Check whether a character is a vowel or consonant.
-// 
+//
 // let a = prompt("enter the character")
 
 // a = Number(a)
@@ -91,7 +91,7 @@
 
 
 // 7. Check whether a number is multiple of 3 and 7.
-// 
+//
 
 // let a = prompt("enter the number")
 
@@ -211,11 +211,11 @@
 // marks = Number(marks)
 
 // if (marks >=90 ) {
-    
+
 //     alert("Grade of student A =  " +marks)
 // }
 // else if (marks >=75 && marks<=89) {
-   
+
 //     alert("Grade of student B =  " + marks)
 
 // }
@@ -225,7 +225,7 @@
 
 // }
 // else {
-   
+
 //     alert("Grade of student fail =  " + marks)
 
 // }
@@ -257,21 +257,115 @@
 // 16. Create a simple calculator using if-else (+, -, *, /)
 
 
-let a = prompt("enter the first number")
-let b = prompt("enter the secound number")
+// let a = prompt("enter the first number")
+// let b = prompt("enter the secound number")
+
+// a = Number(a)
+// b = Number(b)
+
+// if () {
+//     alert("the number is a not prime = " + (a+b))
+
+// }
+
+// else if (a % 2 === 0 && a % 3 === 0 && a % 5 === 0) {
+//     alert("the number is a not prime = " + a)
+// }
+// else {
+//     alert("the number is  a prime = " + a)
+
+// }
+
+
+
+
+// 17. Check whether a number is palindrome(basic logic). 
+
+// let a = prompt("enter the  number")
+
+// a = Number(a)
+
+    
+//     let num2 = a % 10
+//     let num1 = Math.floor(a / 100)
+
+   
+
+ 
+//     if (num1===num2) {
+//         alert("the number is pailindrome number")
+
+//     }
+//     else{
+//         alert("the number is not a pailindrome number")
+
+//     }
+
+
+
+
+// 18. Check whether a triangle is valid or not(sum of angles = 180). 
+
+// let a1 = prompt("enter the  number")
+// let a2 = prompt("enter the  number")
+// let a3 = prompt("enter the  number")
+
+// a1 = Number(a1)
+// a2 = Number(a2)
+// a3 = Number(a3)
+
+
+// let angle=a1+a2+a3
+
+// if (angle === 180) {
+//     alert("the triangle is valid")
+
+// }
+// else {
+//     alert("the triangle is not valid")
+
+
+// }
+
+
+
+
+// 19. Check whether a character is uppercase, lowercase, or digit.
+
+// let a1 = prompt("enter the  number")
+
+
+// if (a1>="a"&&a1<="z") {
+//     alert(" the value is lowercase")
+
+// }
+
+// else if (a1 >="A" && a1 <= "Z") {
+//     alert(" the value is upercase")
+// }
+// else if(a1>= "0" &&a1<="9") {
+//     alert(" the value is digit")
+// }
+
+
+
+
+let a = prompt("enter the  number")
 
 a = Number(a)
-b = Number(b)
 
-if () {
-    alert("the number is a not prime = " + (a+b))
+    
+    let num2 = a % 10
+    let num1 = Math.floor(a / 100)
 
-}
+   
 
-else if (a % 2 === 0 && a % 3 === 0 && a % 5 === 0) {
-    alert("the number is a not prime = " + a)
-}
-else {
-    alert("the number is  a prime = " + a)
+ 
+    if (num1===num2) {
+        alert("the number is pailindrome number")
 
-}
+    }
+    else{
+        alert("the number is not a pailindrome number")
+
+    }
