@@ -279,19 +279,19 @@
 
 
 
-// 17. Check whether a number is palindrome(basic logic). 
+// 17. Check whether a number is palindrome(basic logic).
 
 // let a = prompt("enter the  number")
 
 // a = Number(a)
 
-    
+
 //     let num2 = a % 10
-//     let num1 = Math.floor(a / 100)
+//     let num1 = Math.floor(a / 10)
 
-   
 
- 
+
+
 //     if (num1===num2) {
 //         alert("the number is pailindrome number")
 
@@ -304,7 +304,7 @@
 
 
 
-// 18. Check whether a triangle is valid or not(sum of angles = 180). 
+// 18. Check whether a triangle is valid or not(sum of angles = 180).
 
 // let a1 = prompt("enter the  number")
 // let a2 = prompt("enter the  number")
@@ -350,22 +350,38 @@
 
 
 
-let a = prompt("enter the  number")
 
-a = Number(a)
+// 20. Check whether a number is Armstrong number(3 - digit).
 
-    
-    let num2 = a % 10
-    let num1 = Math.floor(a / 100)
+// let a = prompt("enter the  number")
 
-   
+// a = Number(a)
 
- 
-    if (num1===num2) {
-        alert("the number is pailindrome number")
 
-    }
-    else{
-        alert("the number is not a pailindrome number")
+//     let num1 = a % 10
+//     let digit=num1
+//     let qu=digit*digit*digit
+//     let num2 = Math.floor(a / 10)
 
-    }
+//     let digit1=num2%10
+//     let qu1=digit1*digit1*digit1
+
+//     let num3=Math.floor(num2/10)
+//     let digit3=num3*num3*num3
+
+//     let sum=qu+qu1+digit3
+
+//     if(a==sum){
+//         alert("the number is armstrong number")
+
+//     }
+
+//     else{
+//         alert("the number is not a armstrong number")
+
+//     }
+
+
+
+
+
