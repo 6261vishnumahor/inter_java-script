@@ -43,15 +43,39 @@
 
 
 
-let num = prompt("Enter the number")
-num = Number(num)
-let mul=1
-for (let i = 1; i <= 10; i++) {
-    mul=num*i
+// let num = prompt("Enter the number")
+// num = Number(num)
+// let mul=1
+// for (let i = 1; i <= 10; i++) {
+//     mul=num*i
 
 
 
-        console.log(` table  5*${i}=`,mul)
+//         console.log(` table  5*${i}=`,mul)
     
     
+// }
+
+
+
+
+
+// let num = prompt("Enter the number")
+// num = Number(num)
+// let mul = 1
+for (let i = 0; i <=5; i++) {
+   for(let j=0; j<=5; j++){
+    if(i==j){
+        console.log("*")
+    }
+    else{
+    console.log(" ")
+    }
+   }
+
+
+
+    // console.log(` table  5*${ i }=`, mul)
+
+
 }
