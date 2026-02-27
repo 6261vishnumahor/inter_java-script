@@ -1,9 +1,12 @@
-//  let arr=[23,45,65,76,78,"vishnu","vipin"]
+ let arr=[23,45,65,76,78,"vishnu","vipin"]
 // //  console.log(arr[5])
 //  for(let i=0; i<arr.length; i++){
 //     console.log(arr[i])
 //  }
 
+for( let i of arr){
+    console.log(i)
+}
 
 let arr1 = [23, 45, [34,56 ,[45,67,78]],65, 76,[56,67] , 78, "vishnu", "vipin"]
 
