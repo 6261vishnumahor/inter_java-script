@@ -69,9 +69,9 @@
 
 
 
-// let obj3={id:101,user:"vishnu mahor"}
-// let {id:id}=obj3
-// console.log(id)
+let obj3 = { id: 101, user: "vishnu mahor" }
+let { user } = obj3
+console.log(user)
 // let obj4={id:obj3.id}
 // console.log(obj4.id)
 
@@ -85,7 +85,7 @@
 // person.age = 21
 // person = 67
 // console.log(person)
-// person="person2"    //we can easly change  the object person and asing the value of person2
+// person="person2"    //we can easly change  the object person and asign the value of person2
 // console.log(person)
 
 
@@ -106,16 +106,18 @@
 
 
 //============================== mathode key and hasOwnproperty ===================================
+
 let obj = {
     id: 101,
     name1: "vishnu",
     "last name": "Mahor",
     101: 1000,
+
     hello: {
         sname: "akash",
         sno: 62734
-    }
-
+    },
+    56: "vishal"
 }
 
 // console.log(Object.keys(obj))
@@ -124,10 +126,10 @@ let obj = {
 
 // ============for in loop=================
 
-for (let k in obj.hello) {
-    console.log(k, obj.hello[k])
-    console.log(k, obj[k])
-}
+// for (let k in obj.hello) {
+//     console.log(k, obj.hello[k])
+//     console.log(k, obj[k])
+// }
 
 
 //===================== freeze method and seal methode=============================
@@ -145,4 +147,3 @@ for (let k in obj.hello) {
 // delete obj.id
 // console.log(obj)
 
- 

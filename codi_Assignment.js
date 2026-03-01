@@ -175,26 +175,27 @@
 
 
 
-// let unit = prompt("enter the unit")
+let unit = prompt("enter the unit")
 
-// let To_unit=0
-// let bill=0
-// unit = Number(unit)
+let To_unit=0
+let bill=0
+unit = Number(unit)
 
-// if ( unit <= 100) {
-//     bill=unit*5
-//     alert("electricity bill  =  "+bill)
-// }
-//   else if (unit <= 200) {
-//      To_unit=unit-100
-//      bill=bill+To_unit*7
-//     alert("electricity bill  =  " + bill)
-//  }
-//  else {
-//      To_unit = unit-200
-//      bill = bill + To_unit * 10
-//     alert("electricity bill  =  " + bill)
-// }
+if ( unit <= 100) {
+    bill=unit*5
+    alert("electricity bill  =  "+bill)
+}
+  else if (unit <= 200) {
+     To_unit=unit-100
+     To_unit=To_unit*5
+     bill=To_unit+unit*7
+    alert("electricity bill  =  " + bill)
+ }
+ else {
+     To_unit = unit-200
+     bill = bill + To_unit * 10
+    alert("electricity bill  =  " + bill)
+}
 
 
 
