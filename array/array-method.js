@@ -1,0 +1,1 @@
+let arr=[12,23,43,54,65,"vishnu","mahor"]
